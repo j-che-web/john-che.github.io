@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "John Che | MSc. Computer Science, BSc. Computer Engineering UW-Madison"
 title_separator          : "-"
 name                     : &name "John Che"
@@ -27,7 +27,7 @@ author:
   name             : "SideBar"
   pronouns         : # example: "she/her"  
   bio              : "Short bio"
-  location         : "Madison, WII"
+  location         : "Madison, WI"
   employer         : "University of Wisconsin-Madison"
   uri              : # URL
   email            : "john.che@wisc.edu" 
