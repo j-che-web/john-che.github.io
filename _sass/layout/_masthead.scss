@@ -34,6 +34,13 @@
       max-width: $x-large;
     }
 
+    /* --- ADDED FOR NAME --- */
+    .site-title {
+      font-size: $type-size-3; /* Matches sidebar name size */
+      font-weight: 800;        /* Extra bold like reference site */
+      font-family: $sans-serif;
+    }
+
     nav {
       z-index: 10;
     }
@@ -45,23 +52,30 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
   }
+
+  /* --- ADDED FOR NAV LINKS (CV, etc.) --- */
+  .masthead__menu-item {
+    a {
+      font-size: $type-size-4; /* Makes CV link noticeably bigger */
+      font-weight: 600;
+      font-family: $sans-serif;
+    }
+  }
 }
 
-.masthead__menu-item {
-  background-color: var(--global-bg-color);
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+/* --- INCREASE BODY TEXT SIZE --- */
+.page__content {
+  font-size: 1.4rem;   /* Bumps the text up (default is usually 1rem) */
+  line-height: 1.6;     /* Adds breathing room between lines for readability */
+  
+  p, li {
+    margin-bottom: 1.5em; /* Adds space between paragraphs */
   }
 }
